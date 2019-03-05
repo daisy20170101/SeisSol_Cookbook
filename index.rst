@@ -118,10 +118,8 @@ fault surface. As it propagates away from the nucleation zone, it
 encounters two square patches with initial stress conditions that are
 different from the rest of the fault surface.
 
-.. figure:: LatexFigures/tpv5_mesh.png
-   :alt: Diagram of TPV5. The central square patch is the nucleation
-   zone, while pink and green patches with higher and lower initial
-   stress than neighbour region, respectively.
+.. figure:: ./LatexFigures/tpv5_mesh.png
+   :alt: Diagram of TPV5.
    :width: 9.00000cm
 
    Diagram of TPV5. The central square patch is the nucleation zone,
@@ -159,9 +157,8 @@ The toolbox of **gmsh2gambit** can be found in .
 
 The compilation and usage of PUMGen can be found in
 
-.. figure:: ./LatexFigures/mesh5
-   :alt: Diagram of fault geometry of TPV5. The fault is 30000 m long
-   and 15000 m wide. The square patch has a side-length of 3000m.
+.. figure:: LatexFigures/mesh5.png
+   :alt: Diagram of fault geometry of TPV5. 
    :width: 10.00000cm
 
    Diagram of fault geometry of TPV5. The fault is 30000 m long and
@@ -222,9 +219,8 @@ off-fault receivers (.dat). The fault dynamic rupture and wave filed
 files can be loaded in Paraview directly. For example, open Paraview and
 then go through File :math:`>>` import :math:`>>`\ prefix-fault.xdmf.
 
-.. figure:: LatexFigures/tpv5_SRs_4s
-   :alt: Fault slip rate in the along-strike direction (SRs) at 4
-   seconds in TPV5, illustrated in Paraview.
+.. figure:: LatexFigures/tpv5_SRs_4s.jpg
+   :alt: Fault slip rate in the along-strike direction
    :width: 12.00000cm
 
    Fault slip rate in the along-strike direction (SRs) at 4 seconds in
@@ -360,22 +356,18 @@ far-side receiver lower than those at the near-side receiver.
 
 .. figure:: LatexFigures/tpv6_SRs_4s
    :alt: Fault slip rate at 4 seconds in the along-strike direction in
-   TPV6.
    :width: 12.00000cm
 
    Fault slip rate at 4 seconds in the along-strike direction in TPV6. 
 
 .. figure:: LatexFigures/tpv6_SRs_7s
-   :alt: Fault slip rate at 7 seconds in the along-strike direction in
-   TPV6.
+   :alt: Fault slip rate at 7 seconds in the along-strike direction
    :width: 12.00000cm
 
    Fault slip rate at 7 seconds in the along-strike direction in TPV6. 
 
 .. figure:: LatexFigures/tpv6_velocity
-   :alt: Velocity of u,v,w at off-fault receivers (12 km, 6 km,-0.1 km)
-   (blue) and (12 km, -6 km, -0.1 km) (orange) in TPV6. Far-side
-   receiver has larger amplitude and longer arrival time.
+   :alt: Velocity of u,v,w at off-fault receivers
    :width: 12.00000cm
 
    Velocity of u,v,w at off-fault receivers (12 km, 6 km,-0.1 km) (blue)
@@ -393,7 +385,6 @@ dependent on depth. Strongly super-shear rupture conditions.
 
 .. figure:: LatexFigures/tpv12_13.png
    :alt: Diagram of geometry of TPV12/13. 60-degree dipping normal
-   fault.
    :width: 9.00000cm
 
    Diagram of geometry of TPV12/13. 60-degree dipping normal fault.
@@ -423,9 +414,7 @@ The geometry is generated with GMSH. All the files that are needed for
 the simulation are provided in
 
 .. figure:: LatexFigures/tpv12mesh2
-   :alt: Diagram of a 60-degree dipping fault in Gmsh. The surrouding
-   box is 500 km long and 500 km wide and 50 km hight. The fault cuts
-   through the free surface.
+   :alt: Diagram of a 60-degree dipping fault in Gmsh.
    :width: 9.00000cm
 
    Diagram of a 60-degree dipping fault in Gmsh. The surrouding box is
@@ -507,10 +496,7 @@ SeisSol output xdmf file that can be loaded in Paraview directly. The
 wave field and fault output files have the same format as in TPV5.
 
 .. figure:: LatexFigures/SR_W_tpv12.png
-   :alt: Paraivew figure of TPV12 output. Fault slip rate in
-   dip-direction (SRd) and vertical velocity (w) in wave field. The
-   roughed cutoff surface demonstrates the unstructured tetrahedral
-   meshing.
+   :alt: Paraivew figure of TPV12 output.
    :width: 11.00000cm
 
    Paraivew figure of TPV12 output. Fault slip rate in dip-direction
@@ -713,7 +699,7 @@ due to the heterogenous stress ratio on the fault. Figure
 [fig:tpv16slip] shows the fault slip rate along strike-direction at
 T=5.5 s.
 
-.. figure:: LatexFigures/PSR_16.png
+.. figure:: ./LatexFigures/PSR_16.png
    :alt: Mapview of fault slip rate along strike-direction.
    :width: 11.00000cm
 
@@ -723,9 +709,9 @@ There are several receivers on the fault surface. Figure
 [fig:tpv16fault] shows slip rate along the strike- and downdip-direction
 on the fault at point (15 km, 0 km, -9 km).
 
-.. figure:: LatexFigures/sliprate_16.png
+.. figure:: ./LatexFigures/sliprate_16.png
    :alt: Fault slip along strike- (left)and downdip- (right) direction.
-   :width: 13.00000cm
+   :width: 11.00000cm
 
    Fault slip along strike- (left)and downdip- (right) direction.
 
@@ -778,9 +764,8 @@ file can be found at . The mesh can be generated following the detailed
 process in Section [sec:tpv5].
 
 .. figure:: LatexFigures/tpv24mesh.png
-   :alt: Geometry generated in Gmsh of TPV24. Main fault lies in
-   y-plane.
-   :width: 11.00000cm
+   :alt: Geometry generated in Gmsh of TPV24. Main fault lies in y-plane.
+   :width: 9.00000cm
 
    Geometry generated in Gmsh of TPV24. Main fault lies in y-plane. 
 
@@ -895,12 +880,8 @@ geometrical roughness (blue and red colors). In TPV 29, the surrounding
 rocks respond elastically.
 
 .. figure:: LatexFigures/tpv29.png
-   :alt: Diagram of TPV 29. The fault is 40 km long along the strike.
-   There is a circular nucleation zone on the right-lateral fault
-   surface. The fault surface has 3D stochastic geometrical roughness
-   (blue and red colors). The hypocenter is located 15 km from the left
-   edge of the fault, at a depth of 10 km.
-   :width: 11.00000cm
+   :alt: Diagram of TPV 29. 
+   :width: 9.00000cm
 
    Diagram of TPV 29. The fault is 40 km long along the strike. There is
    a circular nucleation zone on the right-lateral fault surface. The
