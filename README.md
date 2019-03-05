@@ -1,2 +1,2 @@
 # SeisSol_Cookbook
-cookbook for SeisSol
+This is the cookbook for the software package SeisSol (https://github.com/SeisSol/SeisSol).
