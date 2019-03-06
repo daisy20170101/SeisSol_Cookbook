@@ -1,4 +1,4 @@
-overview
+Overview
 ========
 
 SeisSol is a part of SCEC dynamic code validation project
