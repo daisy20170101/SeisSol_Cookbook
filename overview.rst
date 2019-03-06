@@ -52,4 +52,4 @@ Input file resources
 ~~~~~~~~~~~~~~~~~~~~
 
 The files needed to work through the examples are provided. Users may
-download freely from this repository.
+download freely from this repository (https://github.com/daisy20170101/SeisSol_Cookbook).
