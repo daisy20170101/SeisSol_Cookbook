@@ -32,7 +32,7 @@ The nucleation point is centered both along-dip and along-strike of the
 along-strike and 7500m depth.
 
 The mesh is generated in GMSH. All the files that are needed for the
-simulation are provided in . The tpv5.geo file contains the geometry for
+simulation are provided. The tpv5.geo file contains the geometry for
 the fault in a cubit region.
 
 | Then the .geo file can be meshed by using:
@@ -47,8 +47,8 @@ The toolbox of **gmsh2gambit** can be found in .
   version of SeisSol by:
 |  pumgen tpv5.neu tpv5
 
-The compilation and usage of PUMGen can be found in https://seissol.readthedocs.io/en/latest/
-The mesh file (.geo and hdf5) can be found in this repository. 
+The compilation and usage of PUMGen can be found in https://github.com/SeisSol/PUMGen/wiki and https://seissol.readthedocs.io/en/latest/
+The mesh file (.geo) can be found in this repository. 
 
 .. figure:: LatexFigures/mesh5.png
    :alt: Diagram of fault geometry of TPV5. 
