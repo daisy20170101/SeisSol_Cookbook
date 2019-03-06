@@ -2,7 +2,7 @@ Overview
 ========
 
 SeisSol is a part of SCEC dynamic code validation project
-:raw-latex:`\citep{harris2018}`. Here we show several SCEC benchmarks
+(Harris et al. 2018). Here we show several SCEC benchmarks
 for beginners to quickly catch up with SeisSol workflow. Each benchmark
 example is composed of a short problem description, a section of
 *geometry, initial setups (stress, nucleation, friction, etc.)*, and
@@ -38,7 +38,7 @@ Prerequisites
 ~~~~~~~~~~~~~
 
 Before you begin any of the examples, you will need to install latest
-SeisSol from . The instruction can be found at . All geometry and
+SeisSol from (https://github.com/SeisSol/SeisSol). The instruction can be found at . All geometry and
 tetrahedral meshing are generated using free software Gmsh () is needed.
 If you do not wish to create your own mesh at this time, the meshes are
 also provided as part of the example. The ParaView visualization package
@@ -46,7 +46,7 @@ may be used to view simulation results. You may use other visualization
 software, but some adaption from what is described here will be
 necessary. Furthermore, you can complete a subset of the example using
 files provided (as described below), skipping the steps for which you do
-not have the proper software packages installed
+not have the proper software packages installed.
 
 Input file resources
 ~~~~~~~~~~~~~~~~~~~~
