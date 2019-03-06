@@ -2,7 +2,7 @@ Overview
 ========
 
 SeisSol is a part of SCEC dynamic code validation project
-(Harris et al. 2018). Here we show several SCEC benchmarks
+(Harris et al. 2018) (http://scecdata.usc.edu/cvws/). Here we show several SCEC benchmarks
 for beginners to quickly catch up with SeisSol workflow. Each benchmark
 example is composed of a short problem description, a section of
 *geometry, initial setups (stress, nucleation, friction, etc.)*, and
