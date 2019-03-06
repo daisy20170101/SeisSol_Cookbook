@@ -118,10 +118,18 @@ The rupture propagates through the transition zone into the
 velocity-strengthening region, where it smoothly and spontaneously
 arrests. Nucleation is done by imposing additional shear stress in a
 circular patch surrounding the hypocenter.
-
+   
 Figure [fig:tpv104sr] shows the slip rate on the fault along the downdip
 direction at T=5s.
 
-|Slip rate along-strike on the fault at 2 s(top) and 5 s (bottom) of TPV
-104. | |Slip rate along-strike on the fault at 2 s(top) and 5 s (bottom)
-of TPV 104. |
+.. figure:: LatexFigures/SRs_2s.png
+   :alt: Diagram shows the tetrahedral meshing of TPV104
+   :width: 12.00000cm
+   
+   Slip rate along-strike on the fault at 2 s of TPV104. 
+   
+.. figure:: LatexFigures/SRs_5s.png
+   :alt: Diagram shows the tetrahedral meshing of TPV104
+   :width: 12.00000cm   
+   
+   Slip rate along-strike on the fault at 5 s of TPV 104.
