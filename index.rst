@@ -60,6 +60,7 @@ the community as an open source distribution
   :maxdepth: 2
   :caption: Examples
 
+  tpv5
   examples
 
 .. toctree::
