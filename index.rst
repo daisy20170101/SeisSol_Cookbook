@@ -56,4 +56,8 @@ the community as an open source distribution
   introduction
   overview
 
-   
+.. toctree::
+  :maxdepth: 2
+  :caption: Examples
+
+  examples
