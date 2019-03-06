@@ -4,12 +4,12 @@
    contain the root `toctree` directive.
 
 ================
-SeisSol CookBook
+SeisSol Cookbook
 ================
 
 This documentation is a collection of useful dynamic simulation examples to help users build models from the scratch with little efforts. Each example is demonstrated carefully with geometry building, parameter setup and result visualization. Users are suggested to repeat each example in order to get a comprehensive idea of how to set up dynamic simulation models with SeisSol. The updates of source software and news of SeisSol should be posted in SeisSol GitHub (https://github.com/SeisSol/SeisSol) or Readdocs(https://seissol.readthedocs.io/en/latest)
 
-Characteristics of SeisSol:
+Overview of SeisSol:
 
 The software package SeisSol (http://www.seissol.org/) allows for
 realistic simulations of the three-dimensional seismic wave field
