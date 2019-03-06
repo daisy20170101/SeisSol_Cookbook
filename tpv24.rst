@@ -146,7 +146,15 @@ encounters a branching fault. The branching fault continues to rupture
 as well as the rest main fault. The fault slip rate is shown in Figure
 [fig:tpv24result1].
 
-|Snapshot of slip rate in branching fault system. Top: slip rate at 2 s.
-Bottom: slip rate at 3.5 s. | |Snapshot of slip rate in branching fault
-system. Top: slip rate at 2 s. Bottom: slip rate at 3.5 s. |
+.. figure:: LatexFigures/tpv24snap1.png
+   :alt: snapshot1 of TPV24.
+   :width: 9.00000cm
+
+   Snapshot of slip rate in branching fault system. Slip rate at 2 s.
+
+.. figure:: LatexFigures/tpv24snap2.png
+   :alt: snapshot1 of TPV24.
+   :width: 9.00000cm
+
+   Snapshot of slip rate in branching fault system. Slip rate at 3.5 s.
 
