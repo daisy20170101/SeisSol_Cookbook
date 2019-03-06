@@ -34,8 +34,8 @@ High detail rupture evolution and synthetic ground shaking in the
 engineering frequency band (0-10 Hz) were modeled on a non-planar
 earthquake fault structure. In early 2017, SeisSol performed the longest
 and largest dynamic rupture scenario to date, enabled by local time
-stepping :raw-latex:`\citep{uphoff2017}`, resolving the 2004
-Sumatra-Andaman earthquake including complex splay fault geometries. The
+stepping, resolving the 2004
+Sumatra-Andaman earthquake including complex splay fault geometries (Uphoff et al. 2017). The
 paper won the prestigous “Best Paper Award” of the International
 Supercomputing Conference (SC17). Recently, large scale dynamic rupture
 forward scenarios of the 1994 Northridge earthquake and the
