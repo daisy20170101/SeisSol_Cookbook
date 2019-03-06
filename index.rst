@@ -7,7 +7,7 @@
 SeisSol CookBook
 ================
 
-This documentation is a collection of useful dynamic simulation examples to help users build models from the scratch with little efforts. Each example is demonstrated carefully with geometry building, parameter setup and result visualization. Users are suggested to repeat each example in order to get a comprehensive idea of how to set up dynamic simulation models with SeisSol. The updates of source software and news of SeisSol should be posted in SeisSol or 
+This documentation is a collection of useful dynamic simulation examples to help users build models from the scratch with little efforts. Each example is demonstrated carefully with geometry building, parameter setup and result visualization. Users are suggested to repeat each example in order to get a comprehensive idea of how to set up dynamic simulation models with SeisSol. The updates of source software and news of SeisSol should be posted in SeisSol GitHub or Readdocs
 
 Characteristics of SeisSol:
 
