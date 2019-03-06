@@ -127,12 +127,11 @@ of velocity is show in Figure [fig:northridge1]. The surface velocity
 output is refined by subdividing each triangle into 4 subtriangles while
 the domain output is not.
 
-.. figure:: LatexFigures/snap2_velocity.pdf
+.. figure:: LatexFigures/1994_snap2_surface.png
    :alt: Cross-section of vertical velocity
    :width: 12.00000cm
 
-   Cross-section of vertical velocity at surface (top) and in the entire
-   domain (bottom) at 7 s. The surface velocity output is refined by
+   Cross-section of vertical velocity at surface at 7 s. The surface velocity output is refined by
    subdividing each triangle into 4 subtriangles while the domain output
    is not. The plane demonstrates the fault orientation. 
 
