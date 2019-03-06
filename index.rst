@@ -67,6 +67,9 @@ the community as an open source distribution
   tpv16
   tpv24
   tpv29
+  tpv104
+  pointsource
+  kinematic
   
 .. toctree::
   :maxdepth: 2
