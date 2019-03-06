@@ -68,7 +68,7 @@ the community as an open source distribution
 
   acknowledge
   
-  .. toctree::
+.. toctree::
   :maxdepth: 2
   :caption: Copyrights
 
