@@ -61,8 +61,13 @@ the community as an open source distribution
   :caption: Examples
 
   tpv5
-  examples
-
+  tpv6
+  tpv12
+  tpv13
+  tpv16
+  tpv24
+  tpv29
+  
 .. toctree::
   :maxdepth: 2
   :caption: Acknowledgements
