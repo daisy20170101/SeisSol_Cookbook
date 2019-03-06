@@ -31,7 +31,7 @@ are listed in Table [table:loh1].
 
 Table: Material properties in LOH1 .
 
-.. figure:: LatexFigures/LOH1
+.. figure:: LatexFigures/LOH1.jpeg
    :alt: Geometry of LOH1 .
    :width: 11.00000cm
 
