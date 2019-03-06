@@ -47,7 +47,8 @@ The toolbox of **gmsh2gambit** can be found in .
   version of SeisSol by:
 |  pumgen tpv5.neu tpv5
 
-The compilation and usage of PUMGen can be found in
+The compilation and usage of PUMGen can be found in https://seissol.readthedocs.io/en/latest/
+The mesh file (.geo and hdf5) can be found in this repository. 
 
 .. figure:: LatexFigures/mesh5.png
    :alt: Diagram of fault geometry of TPV5. 
