@@ -71,20 +71,20 @@ TPV5 (Figure [fig:tpv5-4s]). Figure [fig:tpv6\_velocity] shows velocity
 recorded at two off-fault receivers. The wave picks arrives at the
 far-side receiver lower than those at the near-side receiver.
 
-.. figure:: LatexFigures/tpv6_SRs_4s
+.. figure:: LatexFigures/tpv6_SRs_4s.jpg
    :alt: Fault slip rate at 4 seconds in the along-strike direction in
    :width: 12.00000cm
 
    Fault slip rate at 4 seconds in the along-strike direction in TPV6. 
 
-.. figure:: LatexFigures/tpv6_SRs_7s
+.. figure:: LatexFigures/tpv6_SRs_7s.jpg
    :alt: Fault slip rate at 7 seconds in the along-strike direction
    :width: 12.00000cm
 
    Fault slip rate at 7 seconds in the along-strike direction in TPV6. 
 
-.. figure:: LatexFigures/tpv6_velocity
-   :alt: Velocity of u,v,w at off-fault receivers
+.. figure:: LatexFigures/tpv6_velocity.png
+   :alt: Velocity of
    :width: 12.00000cm
 
    Velocity of u,v,w at off-fault receivers (12 km, 6 km,-0.1 km) (blue)
