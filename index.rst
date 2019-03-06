@@ -61,3 +61,15 @@ the community as an open source distribution
   :caption: Examples
 
   examples
+
+.. toctree::
+  :maxdepth: 2
+  :caption: Acknowledgements
+
+  acknowledge
+  
+  .. toctree::
+  :maxdepth: 2
+  :caption: Copyrights
+
+  copyrights
