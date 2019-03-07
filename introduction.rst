@@ -17,10 +17,8 @@ meaningful wavelengths.
 
 The software has recently proven to be highly scalable on current and
 future HPC infrastructure. It reached multi-petaflop/s performance on
-some of the largest supercomputers worldwide, and was a Gordon Bell
-prize finalist application 2014 (Breuer et al., 2014; Heinecke et al.,
-2014) in a pioneering simulation of the 1992 M7.2 Landers earthquake.
-High detail rupture evolution and synthetic ground shaking in the
+some of the largest supercomputers worldwide in a pioneering simulation of the 1992 M7.2 Landers earthquake (Heinecke et al.,
+2014; Breuer et al., 2016). High detail rupture evolution and synthetic ground shaking in the
 engineering frequency band (0-10 Hz) were modeled on a non-planar
 earthquake fault structure. In early 2017, SeisSol performed the longest
 and largest dynamic rupture scenario to date, enabled by local time
