@@ -2,7 +2,7 @@ SCEC TPV5
 =========
 
 TPV5 is the first SCEC benchmark. It has spontaneous rupture on a
-vertical strike-slip fault in a homogeneous halfspace. There are
+**vertical strike-slip fault in a homogeneous halfspace**. There are
 slightly heterogeneous initial stress conditions. The earthquake rupture
 is artificially nucleated in a square zone at the center of the fault
 surface. The rupture then spontaneously propagates over the rest of the
