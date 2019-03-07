@@ -35,17 +35,19 @@ The mesh is generated in GMSH. All the files that are needed for the
 simulation are provided. The tpv5.geo file contains the geometry for
 the fault in a cubit region.
 
-| Then the .geo file can be meshed by using:
-|  gmsh tpv5.geo -3 -optimize -o tpv5.msh
+Then the .geo file can be meshed by using:
 
-| Then convert the .msh file to 3D Gambit neutral file
-|  gmsh2gambit -i tpv5.msh -o tpv5.neu
+``$ gmsh tpv5.geo -3 -optimize -o tpv5.msh``
 
-The toolbox of **gmsh2gambit** can be found in .
+Then convert the .msh file to 3D Gambit neutral file
 
-| The 3D Gambit file can be convert to PUML format for LTS in latest
-  version of SeisSol by:
-|  pumgen tpv5.neu tpv5
+``$ gmsh2gambit -i tpv5.msh -o tpv5.neu``
+
+The toolbox of **gmsh2gambit** is used for converting gmsh file to Gambit neutrual file. It can be found in SeisSol GitHub https://github.com/SeisSol/SeisSol/tree/master/preprocessing/meshing
+
+The 3D Gambit file can be convert to PUML format for LTS in latest version of SeisSol by:
+  
+``$ pumgen tpv5.neu tpv5``
 
 The compilation and usage of PUMGen can be found in https://github.com/SeisSol/PUMGen/wiki and https://seissol.readthedocs.io/en/latest/
 The mesh file (.geo) can be found in this repository. 
