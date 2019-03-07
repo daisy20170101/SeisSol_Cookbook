@@ -51,7 +51,7 @@ Käser, M., M. Dumbser, J. de la Puente, and H. Igel (2007), An arbitrary high-o
 
 Breuer, A., A. Heinecke, and M. Bader (2016), Petascale Local Time Stepping for the ADER-DG Finite Element Method, paper presented at 2016 IEEE International Parallel and Distributed Processing Symposium (IPDPS), 23-27 May 2016. DOI: 10.1109/IPDPS.2016.109
 
-Heinecke, A., et al. (2014), Petascale High Order Dynamic Rupture Earthquake Simulations on Heterogeneous Supercomputers, paper presented at SC '14: Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis, 16-21 Nov. 2014, doi:10.1109/SC.2014.6.
+Heinecke, A., A. Breuer, S. Rettenberger, M. Bader, A. Gabriel, C. Pelties, A. Bode, W. Barth, X. Liao, K. Vaidyanathan, M. Smelyanskiy, and P. Dubey (2014), Petascale High Order Dynamic Rupture Earthquake Simulations on Heterogeneous Supercomputers, paper presented at SC '14: Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis, 16-21 Nov. 2014, doi:10.1109/SC.2014.6.
 
 Uphoff, C., S. Rettenberger, M. Bader, E. H. Madden, T. Ulrich, S. Wollherr, and A.-A. Gabriel (2017), Extreme scale multi-physics simulations of the tsunamigenic 2004 sumatra megathrust earthquake, in Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis, edited, pp. 1-16, ACM, Denver, Colorado, doi:10.1145/3126908.3126948.
 
