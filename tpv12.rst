@@ -37,7 +37,7 @@ is centered along-strike.
 The geometry is generated with GMSH. All the files that are needed for
 the simulation are provided in
 
-.. figure:: LatexFigures/tpv12mesh2
+.. figure:: LatexFigures/tpv12mesh2.png
    :alt: Diagram of a 60-degree dipping fault in Gmsh.
    :width: 9.00000cm
 
@@ -106,12 +106,24 @@ The initial stress on the fault is depth-dependent in TPV12/13. In the
 shallower portion above 11951.15 m, the stress field is optimal
 orientated while the other is isotropic.
 
-|  \| p7cm \| p7cm \| Parameter & Value
-| :math:`\sigma_1` & 26460 Pa/m \* H
-| :math:`\sigma_3` & 15624.3 Pa/m \* H
-| :math:`\sigma_2` & :math:`(\sigma_1+\sigma_3)/2`
-| :math:`P_f` & :math:`1000 kg/m^3 *9.8 m/s^2 *H`
-| :math:`\sigma_1,\sigma_2,\sigma_3` & :math:`2700 kg/m^3 *9.8 m/s^2 *H`
++-----------------------------------+----------------------------------+
+|   Parameter                       |       Value                      |
++===================================+==================================+
+|   above 11951.15 m                                                   |
++-----------------------------------+----------------------------------+
+| :math:`\sigma_1`                  |  26460 Pa/m * H                  |
++-----------------------------------+----------------------------------+
+| :math:`\sigma_3`                  |  15624.3 Pa/m * H                |
++-----------------------------------+----------------------------------+
+| :math:`\sigma_2`                  |  :math:`(\sigma_1+\sigma_3)/2`   |
++-----------------------------------+----------------------------------+
+| :math:`P_f`                       | :math:`1000 kg/m^3 *9.8 m/s^2 *H`|
++-----------------------------------+----------------------------------+
+|   below 11951.15 m                                                   |
++-----------------------------------+----------------------------------+
+|:math:`\sigma_1,\sigma_2,\sigma_3` | :math:`2700 kg/m^3 *9.8 m/s^2 *H`|
++-----------------------------------+----------------------------------+
+
 
 Results
 ~~~~~~~
