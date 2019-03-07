@@ -32,20 +32,25 @@ The nucleation point is centered both along-dip and along-strike of the
 along-strike and 7500m depth.
 
 The mesh is generated in GMSH. All the files that are needed for the
-simulation are provided. The tpv5.geo file contains the geometry for
+simulation are provided. 
+
+1. The tpv5.geo file contains the geometry for
 the fault in a cubit region.
 
-Then the .geo file can be meshed by using:
+.. literalinclude:: tpv5/tpv5.geo
+   :language: fortran
+
+2. Then the .geo file can be meshed by using:
 
 ``$ gmsh tpv5.geo -3 -optimize -o tpv5.msh``
 
-Then convert the .msh file to 3D Gambit neutral file
+3. Then convert the .msh file to 3D Gambit neutral file
 
 ``$ gmsh2gambit -i tpv5.msh -o tpv5.neu``
 
 The toolbox of **gmsh2gambit** is used for converting gmsh file to Gambit neutrual file. It can be found in SeisSol GitHub https://github.com/SeisSol/SeisSol/tree/master/preprocessing/meshing
 
-The 3D Gambit file can be convert to PUML format for LTS in latest version of SeisSol by:
+4. The 3D Gambit file can be convert to PUML format for LTS in latest version of SeisSol by:
   
 ``$ pumgen tpv5.neu tpv5``
 
