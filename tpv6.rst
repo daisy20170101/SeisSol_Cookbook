@@ -1,11 +1,7 @@
 SCEC TPV6
 =========
 
-TPV6 is intended to reside in the “well-posed” regime for bimaterial
-problems and so uses a very high shear modulus (density\*vs\*vs)
-contrast. Material properties are homogeneous within each side of the
-fault, but change when one traverses to the other side of the fault.
-This is the bi-material problem.
+TPV6 is intended to reside in the “well-posed” regime for **bimaterial problems** and so uses a very high shear modulus (density\*vs\*vs) contrast. Material properties are homogeneous within each side of the fault, but change when one traverses to the other side of the fault.
 
 +----------------+-------------------------------+---------+---------+
 | Parameter      | Description                   | Value   | Unit    |
