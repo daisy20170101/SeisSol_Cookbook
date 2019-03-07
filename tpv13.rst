@@ -63,8 +63,6 @@ In the **material.yaml**, add plasticity parameters:
    :language: fortran
 
 
-The format of yaml file can be found at
-
 Results
 ~~~~~~~
 
