@@ -59,15 +59,8 @@ Tv = 0.03 ! Plastic relaxation
 
 In the **material.yaml**, add plasticity parameters:
 
-
-!Switch
-[rho,mu,lambda,plastCo,bulkFriction]: !ConstantMap
-map:
-rho: 2700
-mu: 2.9403e10
-lambda: 2.9403e10
-plastCo: 5.0e6
-bulkFriction: 0.85.
+.. literalinclude:: tpv12/tpv12_13_material.yaml
+   :language: fortran
 
 
 The format of yaml file can be found at
