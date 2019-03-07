@@ -65,7 +65,7 @@ Parameters
 Nucleation
 ^^^^^^^^^^
 
-occurs because the initial shear stress in a 3000 m :math:`\times` 3000
+Nucleation occurs because the initial shear stress in a 3000 m :math:`\times` 3000
 m square nucleation patch is set to be higher than the initial static
 yield stress in that patch. Failure occurs everywhere on the fault
 plane, including in the nucleation patch, following a linear
@@ -73,7 +73,7 @@ slip-weakening fracture criterion.
 
 TPV5 uses a linear-slip weakening friction everywhere on the fault.
 There are ten parameters associated with the friction constitutive law
-and fault properties in the *parameters.par*. It can be found at .
+and fault properties in the **parameters.par**. It can be found at https://github.com/daisy20170101/SeisSol_Cookbook/.
 
 Four friction constitutive parameters are: mu\_s, mu\_d, d\_c and
 cohesion. Six stress parameters are: s\_xx, s\_yy, s\_zz, s\_xy, s\_xz,
@@ -102,7 +102,7 @@ compared with that elsewhere. The parameters in TPV5 are listed in Table
 |                            | inside the nucleation zone     | 81.6    | MPa             |
 +----------------------------+--------------------------------+---------+-----------------+
 
-Table: Table of LSR parameters on the fault.
+Table: Table of LSR parameters on the fault in tpv5.
 
 Results
 ~~~~~~~
