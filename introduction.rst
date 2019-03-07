@@ -27,12 +27,7 @@ and largest dynamic rupture scenario to date, enabled by local time
 stepping :raw-latex:`\citep{uphoff2017}`, resolving the 2004
 Sumatra-Andaman earthquake including complex splay fault geometries. The
 paper won the prestigous “Best Paper Award” of the International
-Supercomputing Conference (SC17). Recently, large scale dynamic rupture
-forward scenarios of the 1994 Northridge earthquake and the
-Husavik-­Flatey­ fault system in Northern Iceland have been developed
-shedding light on pressing questions of fault mechanics (Heinecke et
-al., 2014; Gabriel et al., 2014; Wollherr et al., 2015; Ulrich et al.,
-2016, Weingärtner et al., 2016). SeisSol results imply that
+Supercomputing Conference (SC17). SeisSol results imply that
 acknowledging geometrical complexity, realistic fault properties and
 velocity models affect not only earthquake source dynamics but the
 synthetic ground shaking crucially. The software package is available to
