@@ -37,9 +37,6 @@ simulation are provided.
 1. The tpv5.geo file contains the geometry for
 the fault in a cubit region.
 
-.. literalinclude:: tpv5/tpv5.geo
-   :language: fortran
-
 2. Then the .geo file can be meshed by using:
 
 ``$ gmsh tpv5.geo -3 -optimize -o tpv5.msh``
