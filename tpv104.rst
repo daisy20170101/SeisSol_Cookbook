@@ -77,23 +77,14 @@ with a low-velocity steady state friction coefficient:
    f_{LV}(V) = f_0 + (b-a) * \ln (V/V_0)\end{aligned}
 
 In SeisSol input file, Rate-state friction law can be used by choosing
-*FL=103* in *parameter.par* (Section ). The friction parameters of
+*FL=103* in *parameter.par*. The friction parameters of
 RS-SL-SRW are shown in Table [table:tpv104rsl].
 
-|  \| p3.5cm \| p7cm \| p2cm\| p2cm \| Parameter & Description & Value &
-  Unit
-| RS\_f0 & reference friction coefficient & 0.6 &
-| RS\_a & direct effect & 0.01 &
-| RS\_b & evolution effect & 0.014 &
-| RS\_sr0 & reference velocity scale & 1d-6 & m/s
-| RS\_srW & weakening slide rate & 0.1 & m/s
-| RS\_sl0 & critical slip length & 0.4 & m
-| Mu\_W & weakening friction coefficient & 0.2 &
-| RS\_iniSlipRate1 & initial sliding velocity & 1d-16 & m/s
-| RS\_iniSlipRate2 & initial sliding velocity & 0 & m/s
-| t\_0 & forced rupture decay time & 1 & s
-| Rs\_a & direct effect & 0.02 &
-| RS\_srW & weakening slide rate & 1.0 & m/s
+.. figure:: LatexFigures/table104.png
+   :alt:: table 104
+   :width: 12.0cm
+   
+   Table of rate-state friction used in tpv104.
 
 To stop the rupture, the friction law changes from velocity-weakening in
 the rectangular interior region of the fault to velocity-strengthening
