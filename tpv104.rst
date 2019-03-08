@@ -81,7 +81,7 @@ In SeisSol input file, Rate-state friction law can be used by choosing
 RS-SL-SRW are shown in Table [table:tpv104rsl].
 
 .. figure:: LatexFigures/table104.png
-   :alt:: table 104
+   :alt: table 104
    :width: 12.0cm
    
    Table of rate-state friction used in tpv104.
