@@ -36,19 +36,23 @@ The kinematic source of the earthquake can be found at . The *standard
 rupture format* can be used directly in SeisSol, with the following
 lines in parameter.par file.
 
-&SourceType
-Type = 42
-FileName=’northridge.nrf’
-/
+::
+  
+  &SourceType
+  Type = 42
+  FileName=’northridge.nrf’
+  /
 
 Download standard rupture format file (northridge.srf) can be found in .
 Please note that the SCEC units are different with SeisSol units in some
 aspect.
 
-| The fault are divided in to 20 grids along the strike and 25 grids
+The fault are divided in to 20 grids along the strike and 25 grids
   along the dip. The source time function (STF) of each rectangular
   elements is given in the file , whose format looks like the following:
-|  verison (1.0)
+::
+
+  verison (1.0)
   PLANE 1
   ELON ELAT NSTK NDIP LEN WID STK DIP DTOP SHYP DHYP
   POINTS 500
@@ -59,45 +63,43 @@ aspect.
   SR3[1] SR3[2] SR3[3] . . . SR3[NT3]
   ... 
 
-| Explanations:
-| **Line 1**: version
-| **Line 2**: Number of fault planes
-| **Line 3**:
-| ELON top center longitude
-| ELAT top center latitude
-| NSTK number of point sources (subfaults) along strike
-| NDIP number of point sources (subfaults) down-dip
-| LEN segment length (km)
-| WID segment width (km)
-| STK segment strike
-| DIP segment dip
-| DTOP depth to top of fault segment (km)
-| SHYP along strike location (from top center) of hypocenter for this
-  segment (km)
-| DHYP down-dip location (from top edge) of hypocenter for this segment
-  (km)
-| **Line 4**: Number of points per fault plane
-| **Line 5-9**:
-| LON: longitude of subfault center
-| LAT: latitude of subfault center
-| DEP: depth of subfault center (km)
-| STK: strike
-| DIP: dip
-| AREA: area of subfault (cm2)
-| TINIT: initiation time when rupture reaches subfault center (sec)
-| DT: time step in slip velocity function (sec)
-| RAKE: direction of u1 axis (rake direction)
-| SLIP1: total slip in u1 direction (cm)
-| NT1: number of time points in slip rate function for u1 direction
-| SLIP2: total slip in u2 direction (cm)
-| NT2: number of time points in slip rate function for u2 direction
-| SLIP3: total slip in u3 (surface normal) direction (cm)
-| NT3: number of time points in slip rate function for u3 direction
-| SR1[1],…,SR1[NT1] slip rate at each time step for u1 direction
+Explanations:
+**Line 1**: version
+**Line 2**: Number of fault planes
+**Line 3**:
+ELON top center longitude
+ELAT top center latitude
+NSTK number of point sources (subfaults) along strike
+NDIP number of point sources (subfaults) down-dip
+LEN segment length (km)
+WID segment width (km)
+STK segment strike
+DIP segment dip
+DTOP depth to top of fault segment (km)
+SHYP along strike location (from top center) of hypocenter for this segment (km)
+DHYP down-dip location (from top edge) of hypocenter for this segment (km)
+**Line 4**: Number of points per fault plane
+**Line 5-9**:
+LON: longitude of subfault center
+LAT: latitude of subfault center
+DEP: depth of subfault center (km)
+STK: strike
+DIP: dip
+AREA: area of subfault (cm2)
+TINIT: initiation time when rupture reaches subfault center (sec)
+DT: time step in slip velocity function (sec)
+RAKE: direction of u1 axis (rake direction)
+SLIP1: total slip in u1 direction (cm)
+NT1: number of time points in slip rate function for u1 direction
+SLIP2: total slip in u2 direction (cm)
+NT2: number of time points in slip rate function for u2 direction
+SLIP3: total slip in u3 (surface normal) direction (cm)
+NT3: number of time points in slip rate function for u3 direction
+SR1[1],…,SR1[NT1] slip rate at each time step for u1 direction
   (cm/sec)
-| SR2[1],…,SR2[NT2] slip rate at each time step for u2 direction
+SR2[1],…,SR2[NT2] slip rate at each time step for u2 direction
   (cm/sec)
-| SR3[1],…,SR3[NT3] slip rate at each time step for u3 direction
+SR3[1],…,SR3[NT3] slip rate at each time step for u3 direction
   (cm/sec)
 
 Project geographic coordinates
