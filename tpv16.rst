@@ -124,7 +124,7 @@ on the fault at point (15 km, 0 km, -9 km).
 
    Fault slip along strike- (left)and downdip- (right) direction.
    
-.. figure:: ./LatexFigures/tpv16_uvw.png
+.. figure:: ./LatexFigures/tpv16_uvw1.png
    :alt: Velocity at two opposite stations across the fault surface.
    :width: 11.00000cm
 
