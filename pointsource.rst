@@ -54,11 +54,12 @@ Point source input
 ~~~~~~~~~~~~~~~~~~
 
 The point source needs to be turned on in *parameter.par* file.
+:: 
 
-&SourceType
-Type = 50
-FileName=’LOH1\_source.dat’
-/
+  &SourceType
+  Type = 50
+  FileName=’LOH1\_source.dat’
+  /
 
 The source input file can be found at . Duration of the source is 4
 seconds.
