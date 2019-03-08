@@ -43,7 +43,7 @@ lines in parameter.par file.
   FileName=’northridge.nrf’
   /
 
-Download standard rupture format file (northridge.srf) can be found in .
+Download standard rupture format file (northridge.srf) can be found in https://scec.usc.edu/scecpedia/Standard_Rupture_Format.
 Please note that the SCEC units are different with SeisSol units in some
 aspect.
 
@@ -63,9 +63,12 @@ The fault are divided in to 20 grids along the strike and 25 grids
   SR3[1] SR3[2] SR3[3] . . . SR3[NT3]
   ... 
 
-Explanations:
+Explanations for the input file:
+
 **Line 1**: version
+
 **Line 2**: Number of fault planes
+
 **Line 3**:
 ELON top center longitude
 ELAT top center latitude
@@ -78,7 +81,9 @@ DIP segment dip
 DTOP depth to top of fault segment (km)
 SHYP along strike location (from top center) of hypocenter for this segment (km)
 DHYP down-dip location (from top edge) of hypocenter for this segment (km)
+
 **Line 4**: Number of points per fault plane
+
 **Line 5-9**:
 LON: longitude of subfault center
 LAT: latitude of subfault center
@@ -95,12 +100,9 @@ SLIP2: total slip in u2 direction (cm)
 NT2: number of time points in slip rate function for u2 direction
 SLIP3: total slip in u3 (surface normal) direction (cm)
 NT3: number of time points in slip rate function for u3 direction
-SR1[1],…,SR1[NT1] slip rate at each time step for u1 direction
-  (cm/sec)
-SR2[1],…,SR2[NT2] slip rate at each time step for u2 direction
-  (cm/sec)
-SR3[1],…,SR3[NT3] slip rate at each time step for u3 direction
-  (cm/sec)
+SR1[1],…,SR1[NT1] slip rate at each time step for u1 direction (cm/sec)
+SR2[1],…,SR2[NT2] slip rate at each time step for u2 direction (cm/sec)
+SR3[1],…,SR3[NT3] slip rate at each time step for u3 direction (cm/sec)
 
 Project geographic coordinates
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
