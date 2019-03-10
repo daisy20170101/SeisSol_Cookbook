@@ -26,6 +26,7 @@ the community as an open source distribution
 
   introduction
   overview
+  coordinate
 
 .. toctree::
   :maxdepth: 2
