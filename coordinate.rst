@@ -1,3 +1,7 @@
+Coordinate
+==========
+
+
 This is the instruction of how to get topography data and how to convert geographic coordinates to Cartesian cooridinates. We use the cartographic software proj.4 to get the standard coordiantes. 
 
 1.Download Etopo1 topographic data from https://www.ngdc.noaa.gov/mgg/global/
