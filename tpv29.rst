@@ -70,7 +70,7 @@ following general Gmsh process.
 5. Generate MSH mesh with the command line:
 ::
 
-  & gmsh -3 tpv29_step2.geo -optimize_netgen -o tpv29_step2.msh
+  & gmsh tpv29_step2.geo -3 -optimize_netgen -o tpv29_step2.msh
   
 option optimize_netgen is necessary for optimizing meshing with good quality.
 
