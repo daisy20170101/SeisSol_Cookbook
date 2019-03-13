@@ -23,18 +23,21 @@ The roughed fault interface model is generated with Gmsh is complicated
 than planar faults in previous sections. There are 5 steps to generate
 the model.
 
-| 1. Download fault topography data from SCEC. There are 2001 nodes
+1.Download fault topography data from SCEC. There are 2001 nodes
   along the strike and 1201 nodes along the downdip. The node files
   should contains:
-| *Line 1: nx, ny
-  Line 2 to nx: positions of nodes along the strike (in meters)
-  Line nx+3 to ny+nx+3: positions of nodes along the downdip (in meters)
-  Line to the end: fault topography of each nodes (nx\*ny, in meters)
-  *
+  
+::
+  
+   Line 1: nx, ny
+   Line 2 to nx: positions of nodes along the strike (in meters)
+   Line nx+3 to ny+nx+3: positions of nodes along the downdip (in meters)
+   Line to the end: fault topography of each nodes (nx\*ny, in meters)
+   
 
-Save this file as *mytopo\_tpv29*, which can be found in .
+Save this file as *mytopo\_tpv29*.
 
-2. Make a model with plane fault as Figure [fig:tpv29geo]. The Gmsh
+2.Make a model with plane fault as Figure [fig:tpv29geo]. The Gmsh
 tpv29.geo file can be found at
 
 .. figure:: LatexFigures/tpv29geo.png
@@ -44,14 +47,17 @@ tpv29.geo file can be found at
    Diagram showing the geometry of TPV 29. The center of nucleation is
    at (-8, 0, -10) km on the main fault. 
 
-3. Use *gmsh\_plane2topo.f90* and *gmsh\_tpv29.in* to shift the planar
-fault according to positions given in *mytopo\_tpv29*.
+3.Use *gmsh_plane2topo.f90* and interpol_topo.in* to shift the planar
+fault according to positions given in *mytopo_tpv29*.
 
-| *$ ./gmsh\_plane2topo gmsh\_tpv29.in*
-| This will generate a step1\_modified.msh file which containing rough
+:: 
+
+  $ ./gmsh_plane2topo interpol_topo.in
+
+This will generate a step1\_modified.msh file which containing rough
   fault surface.
 
-4. Make a new step2.geo file that contains the new rough fault and mesh
+4.Make a new step2.geo file that contains the new rough fault and mesh
 following general Gmsh process.
 
 .. figure:: LatexFigures/tpv29mesh.png
@@ -60,6 +66,13 @@ following general Gmsh process.
 
    Diagram showing the geometry of TPV 29. The center of nucleation is
    at (-8, 0, -10) km on the main fault. 
+   
+5. Generate MSH mesh with the command line:
+::
+
+  & gmsh -3 tpv29_step2.geo -optimize_netgen -o tpv29_step2.msh
+  
+option optimize_netgen is necessary for optimizing meshing with good quality.
 
 Material parameters
 ~~~~~~~~~~~~~~~~~~~
