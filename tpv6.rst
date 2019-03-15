@@ -79,11 +79,3 @@ far-side receiver lower than those at the near-side receiver.
 
    Fault slip rate at 7 seconds in the along-strike direction in TPV6. 
 
-.. figure:: LatexFigures/tpv6_velocity.png
-   :alt: Velocity of
-   :width: 12.00000cm
-
-   Velocity of u,v,w at off-fault receivers (12 km, 6 km,-0.1 km) (blue)
-   and (12 km, -6 km, -0.1 km) (orange) in TPV6. Far-side receiver has
-   larger amplitude and longer arrival time.
-   
