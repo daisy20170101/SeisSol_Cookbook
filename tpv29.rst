@@ -44,8 +44,9 @@ Save this file as *mytopo\_tpv29*.
    :width: 11.0cm
 
    Diagram showing the geometry of TPV 29. The center of nucleation is at (-8, 0, -10) km on the main fault. 
+   
 
- and then generate step1.msh by:
+and then generate step1.msh by:
  
 ::
 
