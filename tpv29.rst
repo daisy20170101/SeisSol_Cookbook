@@ -34,45 +34,52 @@ the model.
    Line nx+3 to ny+nx+3: positions of nodes along the downdip (in meters)
    Line to the end: fault topography of each nodes (nx\*ny, in meters)
    
-
 Save this file as *mytopo\_tpv29*.
 
-2.Make a model with plane fault as Figure [fig:tpv29geo]. The Gmsh
-tpv29.geo file can be found at
+2.Make a model with plane fault as Figure [fig:tpv29geo]. The Gmsh tpv29.geo file can be found at https://github.com/daisy20170101/SeisSol_Cookbook/tree/master/tpv29
+
 
 .. figure:: LatexFigures/tpv29geo.png
-   :alt: Diagram showing the geometry of TPV 29.
-   :width: 11.00000cm
+   :alt: Diagram showing the geometry of TPV29.
+   :width: 11.0cm
 
-   Diagram showing the geometry of TPV 29. The center of nucleation is
-   at (-8, 0, -10) km on the main fault. 
+   Diagram showing the geometry of TPV 29. The center of nucleation is at (-8, 0, -10) km on the main fault. 
 
-3.Use *gmsh_plane2topo.f90* and interpol_topo.in* to shift the planar
-fault according to positions given in *mytopo_tpv29*.
+ and then generate step1.msh by:
+ 
+::
+
+   $ gmsh tpv29_2.geo -2 -o tpv29_2.msh
+
+3. Use *gmsh_plane2topo.f90* and interpol_topo.in* to shift the planar fault according to positions given in *mytopo_tpv29*.
 
 :: 
 
   $ ./gmsh_plane2topo interpol_topo.in
 
+
 This will generate a step1\_modified.msh file which containing rough
   fault surface.
+  
 
-4.Make a new step2.geo file that contains the new rough fault and mesh
+4. Make a new step2.geo file that contains the new rough fault and mesh
 following general Gmsh process.
 
 .. figure:: LatexFigures/tpv29mesh.png
-   :alt: Diagram showing the geometry of TPV 29.
+   :alt: Diagram showing the geometry of TPV29.
    :width: 11.00000cm
-
-   Diagram showing the geometry of TPV 29. The center of nucleation is
+   
+   Diagram showing the geometry of TPV29. The center of nucleation is
    at (-8, 0, -10) km on the main fault. 
    
 5. Generate MSH mesh with the command line:
+
 ::
 
   & gmsh tpv29_step2.geo -3 -optimize_netgen -o tpv29_step2.msh
   
 option optimize_netgen is necessary for optimizing meshing with good quality.
+
 
 Material parameters
 ~~~~~~~~~~~~~~~~~~~
@@ -128,10 +135,11 @@ The initial stress are listed in Table [table:tpv29fault].
 Table: Table of initial stress in TPV 29. :math:`b11, b33,b13` are
 1.025837, 0.974162, −0.158649, respectively.
 
-| Note that the effective stress tensor is :
-| 
 
-  .. math::
+Note that the effective stress tensor is :
+
+
+.. math::
 
      \bar{\sigma}_{effective}= 
      \begin{bmatrix}
