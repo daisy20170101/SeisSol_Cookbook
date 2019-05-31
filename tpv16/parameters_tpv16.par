@@ -65,7 +65,7 @@ ClusteredLts = 2
 /
 
 &Output
-OutputFile = 'output/tpv16'
+OutputFile = 'output/tpv16_2'
 iOutputMask = 1 1 1 1 1 1 1 1 1      ! Variables ouptut
 iOutputMaskMaterial = 1 1 1          ! Material output
 Format = 6                          ! Format (0=IDL, 1=TECPLOT, 2=IBM DX, 4=GiD))

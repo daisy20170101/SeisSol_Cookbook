@@ -6,7 +6,7 @@ translation:
   x: 0.0
   z: 0.0
 components: !SCECFile
-  file: ./tpv16_17_input_files/tpv16_input_file.txt
+  file: tpv16_input_file.txt
   components: !Switch
     [s_xx, s_zz, s_xz]: !ConstantMap
       map:
