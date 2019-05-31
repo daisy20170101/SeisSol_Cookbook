@@ -49,3 +49,7 @@
       map:
         rs_a:   0.02
         rs_srW: 1.0
+[RS_sl0]: !ConstantMap
+  map:
+    RS_sl0: 0.4
+
