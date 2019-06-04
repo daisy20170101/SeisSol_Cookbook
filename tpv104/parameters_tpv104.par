@@ -1,5 +1,5 @@
 &equations
-MaterialFileName = material.yaml
+MaterialFileName = 'material.yaml'
 /
 
 &IniCondition
@@ -13,7 +13,7 @@ BC_of = 1                               ! Absorbing boundaries
 
 &DynamicRupture
 FL = 105                   ! Friction law (0: none, 1:self-similar crack, 2:LSW, 3:RS (aging), 4:RS (slip))
-ModelFileName = fault.yaml
+ModelFileName = 'fault.yaml'
 GPwise = 1                  ! elementwise =0 ; GPwise =1
 
 RS_f0 = 0.6
