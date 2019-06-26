@@ -17,9 +17,17 @@
     s_xy: |
       rx = sqrt(x*x);
       rz = sqrt((z+7500)*(z+7500));
+      rx1 = sqrt((x+7500)*(x+7500));
+      rx2 = sqrt((x-7500)*(x-7500));
       r = max(rx, rz);
       if (r <= 1500.0) {
          return 81600000;
+      }
+      if (max(rx1,rz) <=1500) {
+         return 78000000;
+      }
+      if (max(rx2,rz) <=1500) {
+        return 62000000;
       }
       return 70000000;
 [mu_s, mu_d, d_c, cohesion]: !ConstantMap
