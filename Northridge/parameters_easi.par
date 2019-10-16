@@ -40,7 +40,7 @@ refinement = 1
 printtimeinterval = 1       ! Index of printed info at timesteps
 OutputMask = 1 1 1 0      ! output 1/ yes, 0/ no - position: 1/ slip rate 2/ stress 3/ normal velocity 4/ in case of rate and state output friction and state variable                            ! 5/ background values
 nOutpoints = 4 
-PPFileName = 'tpv13_faultreceivers.dat'
+PPFileName = 'faultreceivers.dat'
 /
 
 &SourceType
