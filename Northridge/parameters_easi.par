@@ -15,7 +15,7 @@ BC_of = 1                               ! outflow boundary
 
 &DynamicRupture
 FL = 2
-ModelFileName = 'type50.yaml'
+ModelFileName = 'fault.yaml'
 inst_healing=0
 GPwise = 1                  ! elementwise =0 ; GPwise =1
 XRef = 0.0                  ! Reference point, affect fault local coordinates
@@ -45,7 +45,7 @@ PPFileName = 'faultreceivers.dat'
 
 &SourceType
 Type = 42    ! default =0 
-FileName = './northbridge.nrf' ! input file.
+FileName = './northridge.nrf' ! input file.
 ! FileName = './pointsource/source.dat' 
 /
 
@@ -54,7 +54,7 @@ FileName = './northbridge.nrf' ! input file.
             
 &MeshNml
 !MeshFile = './planar2' 
-MeshFile = './test2_northridge2'            ! Name of mesh file
+MeshFile = './mesh_northridge'            ! Name of mesh file
 meshgenerator = 'PUML'
 !meshgenerator = 'Gambit3D-fast'       ! Name of meshgenerator (format)
 /
@@ -68,7 +68,7 @@ ClusteredLTS=2                       ! This enables local time stepping
 /
 
 &Output
-OutputFile ='./output_oppo/test2'
+OutputFile ='./output/test2'
 iOutputMask = 0 0 0 0 0 0 1 1 1 1 1 1        ! Variables ouptut
 iOutputMaskMaterial = 0 0 1          ! Material output
 Rotation = 1                         ! Rotation components output: default=0
