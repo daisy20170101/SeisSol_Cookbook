@@ -5,9 +5,9 @@ TPV3 is a SCEC benchmark for vertical strike-slip fault in whole-space. The faul
 Nucleation is trough a 3 km by 3 km nucleationp patch on the fault center. 
 
 
-   .. figure:: SRs-tpv3-sym.png
-      :alt: Slip rate along-strike at 4 sec. 
-      :width: 12.0cm
+  .. figure:: SRs-tpv3-sym.png
+     :alt: Slip rate along-strike at 4 sec. 
+     :width: 12.0cm
      
 
 
