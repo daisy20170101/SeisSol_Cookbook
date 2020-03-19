@@ -9,5 +9,8 @@ Nucleation is trough a 3 km by 3 km nucleationp patch on the fault center.
      :alt: Slip rate along-strike at 4 sec. 
      :width: 12.0cm
      
+     Slip rate along-strike at 4 sec. 
+     
+     
 
 
