@@ -13,4 +13,8 @@ Nucleation is trough a 3 km by 3 km nucleationp patch on the fault center.
      
      
 
+Snapshots data
+===============
+
+Snapshots-data/ contains wave velocity at different time step on the horizontal cross-section of -7.5 km. The three columns are u,v,w (m/s) in each binary file. Each binary file has an integer index which indicates how many time steps of every 0.5 sec from 0 sec. E.g. snapshots-v-16.bin represents wavefields at 16*0.5=8.0 sec. slide-xyz.txt contains coordinates of each points.
 
