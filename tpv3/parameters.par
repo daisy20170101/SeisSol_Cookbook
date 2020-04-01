@@ -52,7 +52,7 @@ PPFileName = 'FaultReceivers5.dat'
             
 &MeshNml
 meshgenerator = 'PUML'       ! Name of meshgenerator (format)
-MeshFile = 'tpv5_200m'             ! Name of mesh file
+MeshFile = 'tpv3_400'             ! Name of mesh file
 /
 
 &Discretization
@@ -67,8 +67,8 @@ ClusteredLTS =2
 /
 
 &Output
-OutputFile = 'output_o4/tpv3'
-iOutputMask = 1 1 1 1 1 1 1 1 1      ! Variables ouptut
+OutputFile = 'output_o4/tpv_sym'
+iOutputMask = 0 0 0 0 0 0 1 1 1 1 1 1     ! Variables ouptut
 iOutputMaskMaterial = 1 1 1          ! Material output
 Format = 10                           ! Format (0=IDL, 1=TECPLOT, 2=IBM DX, 4=GiD))
 !Interval = 100000                    ! Index of printed info at timesteps
@@ -80,6 +80,10 @@ FaultOutputFlag = 1                  ! DR output (add this line only if DR is ac
 nRecordPoints = 6                   ! number of Record points which are read from file
 RFileName = 'Receivers5.dat'      ! Record Points in extra file
 !checkPointInterval = 1.5 ! Set to 0 to disable checkpointing
+SurfaceOutput = 1
+SurfaceOutputRefinement = 1
+SurfaceOutputInterval = 0.5
+
 !checkPointBackend = 'posix' ! Either ’hdf5’, ’mpio’ or ’none’
 /
 
