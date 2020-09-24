@@ -6,7 +6,7 @@
                      1
  x,y,z,strike, dip, rake, area, onset time.
      0.00000     0.00000     2000.00000     0.00000    90.00000     0.00000 0.30866E+12     0.00000
- source time function
+ source time function: dela, total sample point
      0.00020                  20000
  samples
  0.21556E-05
