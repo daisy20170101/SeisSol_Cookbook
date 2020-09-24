@@ -4,7 +4,7 @@
  0.00000E+00 0.00000E+00 0.00000E+00
  number of faults
                      1
- x,y,z,strike. etc
+ x,y,z,strike, dip, rake, area, onset time.
      0.00000     0.00000     2000.00000     0.00000    90.00000     0.00000 0.30866E+12     0.00000
  source time function
      0.00020                  20000
